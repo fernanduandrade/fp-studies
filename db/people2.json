@@ -1,0 +1,28 @@
+[{
+  "name": "I am second",
+  "metadata": {
+    "attributes": {
+      "height": {
+        "value": 23
+      }
+    }
+  }
+}, {
+  "name": "I am last",
+  "metadata": {
+    "attributes": {
+      "height": {
+        "value": 230
+      }
+    }
+  }
+}, {
+  "name": "I am first",
+  "metadata": {
+    "attributes": {
+      "height": {
+        "value": 2.3
+      }
+    }
+  }
+}]
