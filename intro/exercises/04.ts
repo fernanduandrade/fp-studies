@@ -19,3 +19,8 @@ const getNameOfLowestPrice = (price: number) => compose(
 );
 
 console.log(getNameOfLowestPrice(sortedByPrice[0])(carrinho));
+
+// outra abordagem
+// sortBy(prop('price')),
+// head,
+// prop('name')
