@@ -10,6 +10,6 @@ export default ([query, names, summaries, links]) => `
           <p>${summaries[index]}</p>
         </li>
       `,
-  )}
+  ).join('')}
   </ul>
 `;
