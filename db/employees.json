@@ -1,4 +1,4 @@
-[
+[  
   {
     "name": "User 1",
     "salary": 55042
@@ -6,6 +6,10 @@
   {
     "name": "User 2",
     "salary": 74274
+  },
+  {
+    "name": "Fernando andrade",
+    "salary": 231231
   },
   {
     "name": "User 3",
