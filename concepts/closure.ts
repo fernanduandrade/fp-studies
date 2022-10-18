@@ -1,4 +1,4 @@
-// closure é uma função que lembra do escope das variárveis, mesmo após ter sido executado
+// closure é uma função que lembra do escopo das variárveis, mesmo após ter sido executado
 
 /*
 e.g: usando cache podemos armazenar informações sobre uma variável
@@ -24,12 +24,15 @@ já que  isso é sobre programação funcional não podemos mutar o que está de
 para isso closures é capaz de resolver esse problema
 */
 
+interface Caching {
+  [key: string]: number
+}
+
 const plus20 = () => {
-  const cache = {} as any;
+  const cache = {} as Caching;
   return (num: number) => {
     if (num in cache) return cache[num];
     cache[num] = num + 20;
-    console.log(cache[num]);
     return cache[num];
   };
 };
